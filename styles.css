@@ -4,7 +4,7 @@ body {
 }
 
 .shop {
-  width: auto;
+  width: auto !important;
   background: white;
   padding: 15px;
 }
