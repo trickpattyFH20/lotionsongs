@@ -26,9 +26,10 @@ audio {
   opacity: 0.7;
 }
 
-.fa-instagram {
+.fa .fa-instagram {
   background: #125688;
   color: white;
+  font-size: 48pt;
 }
 
 @keyframes spin {
