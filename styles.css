@@ -3,6 +3,10 @@ body {
   background-repeat: no-repeat;
 }
 
+audio {
+  padding: 30px;
+}
+
 .shop {
   width: auto !important;
   background: white;
