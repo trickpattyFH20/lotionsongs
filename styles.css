@@ -21,7 +21,7 @@
 
 .spin{
   animation-name: spin, zoom-in-zoom-out;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-duration: 5000ms, 5000ms;
+  animation-iteration-count: infinite, infinite;
+  animation-timing-function: linear, linear;
 }
