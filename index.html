@@ -33,7 +33,7 @@
        Your browser does not support the audio element.
        </audio> 
    </p>
-    <div id='product-component-1627250627056' style="background: white;"></div>
+    <div id='collection-component-1627254381897' style="background: white;"></div>
     <script type="text/javascript">
     /*<![CDATA[*/
     (function () {
@@ -60,43 +60,40 @@
           storefrontAccessToken: 'b6029b35b09a66ace43876e17125dbe4',
         });
         ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: '6804704035011',
-            node: document.getElementById('product-component-1627250627056'),
+          ui.createComponent('collection', {
+            id: '276196098243',
+            node: document.getElementById('collection-component-1627254381897'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
       "product": {
         "styles": {
           "product": {
             "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-bottom": "50px"
+              "max-width": "calc(25% - 20px)",
+              "margin-left": "20px",
+              "margin-bottom": "50px",
+              "width": "calc(25% - 20px)"
             },
-            "text-align": "left"
-          },
-          "title": {
-            "font-size": "26px"
-          },
-          "price": {
-            "font-size": "18px"
-          },
-          "compareAt": {
-            "font-size": "15.299999999999999px"
-          },
-          "unitPrice": {
-            "font-size": "15.299999999999999px"
+            "img": {
+              "height": "calc(100% - 15px)",
+              "position": "absolute",
+              "left": "0",
+              "right": "0",
+              "top": "0"
+            },
+            "imgWrapper": {
+              "padding-top": "calc(75% + 15px)",
+              "position": "relative",
+              "height": "0"
+            }
           }
         },
-        "layout": "horizontal",
+        "buttonDestination": "modal",
         "contents": {
-          "img": false,
-          "imgWithCarousel": true,
-          "description": true
+          "options": false
         },
-        "width": "100%",
         "text": {
-          "button": "Add to cart"
+          "button": "View product"
         }
       },
       "productSet": {
@@ -122,30 +119,6 @@
               "margin-left": "0px",
               "margin-bottom": "0px"
             }
-          },
-          "title": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "bold",
-            "font-size": "26px",
-            "color": "#4c4c4c"
-          },
-          "price": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "18px",
-            "color": "#4c4c4c"
-          },
-          "compareAt": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "15.299999999999999px",
-            "color": "#4c4c4c"
-          },
-          "unitPrice": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "15.299999999999999px",
-            "color": "#4c4c4c"
           }
         },
         "text": {
