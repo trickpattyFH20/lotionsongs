@@ -3,6 +3,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.shop {
+  width: auto;
+  background: white;
+  padding: 15px;
+}
+
 @keyframes spin {
     from {
         transform:rotate(0deg);
