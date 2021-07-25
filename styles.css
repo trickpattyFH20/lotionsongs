@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.shop {
+.shop, .shopify-buy__product {
   width: auto !important;
   background: white;
   padding: 15px;
